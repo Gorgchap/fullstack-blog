@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-blog",
+  "version": "1.0.0",
+  "description": "simple blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "Kirill Kazakov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
